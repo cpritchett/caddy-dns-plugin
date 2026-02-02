@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"strconv"
+	"strings"
 	"time"
 
 	"github.com/caddyserver/caddy/v2"
@@ -52,6 +53,9 @@ func Load(dispenser *caddyfile.Dispenser) (Config, error) {
 		if err := cfg.UnmarshalCaddyfile(dispenser); err != nil {
 			return Config{}, err
 		}
+	}
+	if err := cfg.Validate(); err != nil {
+		return Config{}, err
 	}
 	return cfg, nil
 }
@@ -113,6 +117,40 @@ func (c *Config) UnmarshalCaddyfile(d *caddyfile.Dispenser) error {
 			}
 		}
 	}
+	return nil
+}
+
+func (c *Config) Validate() error {
+	if strings.TrimSpace(c.LabelPrefix) == "" {
+		return fmt.Errorf("label_prefix must not be empty")
+	}
+	if time.Duration(c.ReconcileInterval) <= 0 {
+		return fmt.Errorf("reconcile_interval must be positive")
+	}
+	if strings.TrimSpace(c.DockerSocket) == "" {
+		return fmt.Errorf("docker_socket must not be empty")
+	}
+
+	seen := make(map[string]struct{})
+	for i, provider := range c.Providers {
+		if strings.TrimSpace(provider.Name) == "" {
+			return fmt.Errorf("provider[%d] missing name", i)
+		}
+		if strings.TrimSpace(provider.Type) == "" {
+			return fmt.Errorf("provider %q missing type", provider.Name)
+		}
+		if _, ok := seen[provider.Name]; ok {
+			return fmt.Errorf("duplicate provider name %q", provider.Name)
+		}
+		seen[provider.Name] = struct{}{}
+		if len(provider.ZoneFilters) == 0 {
+			return fmt.Errorf("provider %q requires at least one zone_filter", provider.Name)
+		}
+		if provider.TTL != nil && *provider.TTL <= 0 {
+			return fmt.Errorf("provider %q ttl must be positive", provider.Name)
+		}
+	}
+
 	return nil
 }
 

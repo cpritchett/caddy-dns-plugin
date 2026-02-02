@@ -70,3 +70,42 @@ func TestCaddyfileOverridesEnv(t *testing.T) {
 		t.Fatalf("zone filters = %v, want [*.example.com]", provider.ZoneFilters)
 	}
 }
+
+func TestLoadRejectsProviderWithoutZoneFilters(t *testing.T) {
+	input := `dns_sync {
+	provider cloudflare-primary cloudflare
+}`
+
+	d := caddyfile.NewTestDispenser(input)
+	_, err := Load(d)
+	if err == nil {
+		t.Fatal("expected error for provider without zone filters")
+	}
+}
+
+func TestLoadRejectsDuplicateProviderNames(t *testing.T) {
+	input := `dns_sync {
+	provider cloudflare-primary cloudflare *.example.com
+	provider cloudflare-primary cloudflare *.example.org
+}`
+
+	d := caddyfile.NewTestDispenser(input)
+	_, err := Load(d)
+	if err == nil {
+		t.Fatal("expected error for duplicate provider names")
+	}
+}
+
+func TestLoadRejectsNonPositiveTTL(t *testing.T) {
+	input := `dns_sync {
+	provider cloudflare-primary cloudflare *.example.com {
+		ttl 0
+	}
+}`
+
+	d := caddyfile.NewTestDispenser(input)
+	_, err := Load(d)
+	if err == nil {
+		t.Fatal("expected error for non-positive ttl")
+	}
+}
