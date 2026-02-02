@@ -23,8 +23,9 @@ Build a Caddy module that watches Docker container lifecycle events, parses DNS-
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-- Constitution file is a placeholder with no declared principles or workflow rules. GATE: governance guidance NEEDS CLARIFICATION; proceed with documented assumptions and re-validate if/when principles are defined.
-- Post-Phase 1 check: governance still undefined; no additional gates identified beyond documenting assumptions and keeping tests/metrics in scope.
+- Principles (I–V) to uphold: Test-First Deterministic Delivery; Contract-Driven Interfaces; Observability and Resilience; Simplicity and Statelessness; Documentation and Template Alignment.
+- Compliance: No violations planned; tests and contracts will accompany new behavior; no persistent state introduced.
+- If any exception arises, document in Complexity Tracking with rationale before proceeding.
 
 ## Project Structure
 

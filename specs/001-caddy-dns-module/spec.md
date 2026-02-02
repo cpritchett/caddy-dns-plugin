@@ -5,6 +5,12 @@
 **Status**: Draft  
 **Input**: User description: "Build Caddy DNS Sync Module for automatic Docker container DNS management"
 
+## Clarifications
+
+### Session 2026-02-01
+
+- Q: How should conflicting hostname requests from multiple containers be handled? → A: Reject new hostname when an existing record is present; log error/warning.
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Automatic Public DNS for Docker Services (Priority: P1)
@@ -113,14 +119,15 @@ As an operator, I want to configure the plugin via Caddyfile or environment vari
 - **FR-016**: System SHOULD support reusing existing DNS provider credentials/config from Caddy's DNS provider configuration when available, without triggering certificate issuance
 - **FR-017**: System MUST be implemented as a Caddy module (Go)
 - **FR-018**: System MUST only use a Caddy config adapter if a module implementation is infeasible
+- **FR-019**: System MUST reject new DNS record requests when an existing record for the hostname already exists for the target provider, logging a clear error/warning instead of overriding.
 
 ### DNS Provider Requirements
 
-- **FR-019**: Cloudflare provider MUST support A/AAAA/CNAME record types
-- **FR-020**: Cloudflare provider MUST support proxied and DNS-only modes
-- **FR-021**: Cloudflare provider MUST support configurable TTL
-- **FR-022**: UniFi provider MUST support static DNS entry creation/deletion
-- **FR-023**: Provider interface MUST be extensible for community contributions
+- **FR-020**: Cloudflare provider MUST support A/AAAA/CNAME record types
+- **FR-021**: Cloudflare provider MUST support proxied and DNS-only modes
+- **FR-022**: Cloudflare provider MUST support configurable TTL
+- **FR-023**: UniFi provider MUST support static DNS entry creation/deletion
+- **FR-024**: Provider interface MUST be extensible for community contributions
 
 ### Key Entities
 
