@@ -1,0 +1,3 @@
+2026-02-02: Starting config loader task. Noted internal/config/config.go already has env + Caddyfile parsing; will validate precedence and provider parsing via tests and adjust if gaps found.
+Plan: validate config loader behavior with tests covering env-only config and Caddyfile precedence, plus provider parsing edge (zone_filters overrides args). Implement tests in internal/config/config_test.go and run go test ./... for verification.
+Implemented config loader tests (env-only + Caddyfile precedence) and adjusted deps to pin quic-go v0.48.2 so caddy v2.9.0 builds. go test ./... passes with GOCACHE/GOPATH in /tmp.

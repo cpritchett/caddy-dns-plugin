@@ -1,0 +1,22 @@
+2026-02-02T02:35:06.343134Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T02:35:06.343349Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: false)
+2026-02-02T02:35:06.343381Z  INFO ralph_core::event_loop: Successfully loaded 0 memories from store
+2026-02-02T02:35:06.343397Z  INFO ralph_core::event_loop: Memory store is empty - no memories to inject
+2026-02-02T02:36:47.787335Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T02:36:47.787378Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: false)
+2026-02-02T02:36:47.787384Z  INFO ralph_core::event_loop: Successfully loaded 0 memories from store
+2026-02-02T02:36:47.787387Z  INFO ralph_core::event_loop: Memory store is empty - no memories to inject
+2026-02-02T02:36:47.788988Z  INFO ralph_core::event_loop: Injecting scratchpad (403 chars) into prompt
+2026-02-02T02:36:47.789388Z  INFO ralph_core::event_loop: Injecting ready tasks (27 ready, 27 open, 1 closed) into prompt
+2026-02-02T02:37:45.068979Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T02:37:45.069006Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: false)
+2026-02-02T02:37:45.069011Z  INFO ralph_core::event_loop: Successfully loaded 0 memories from store
+2026-02-02T02:37:45.069014Z  INFO ralph_core::event_loop: Memory store is empty - no memories to inject
+2026-02-02T02:37:45.069427Z  INFO ralph_core::event_loop: Injecting scratchpad (464 chars) into prompt
+2026-02-02T02:37:45.069957Z  INFO ralph_core::event_loop: Injecting ready tasks (26 ready, 26 open, 2 closed) into prompt
+2026-02-02T03:03:52.825871Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T03:03:52.825891Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: false)
+2026-02-02T03:03:52.825896Z  INFO ralph_core::event_loop: Successfully loaded 0 memories from store
+2026-02-02T03:03:52.825899Z  INFO ralph_core::event_loop: Memory store is empty - no memories to inject
+2026-02-02T03:03:52.826067Z  INFO ralph_core::event_loop: Injecting scratchpad (793 chars) into prompt
+2026-02-02T03:03:52.826261Z  INFO ralph_core::event_loop: Injecting ready tasks (25 ready, 25 open, 3 closed) into prompt
