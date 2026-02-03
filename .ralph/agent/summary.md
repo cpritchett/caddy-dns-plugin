@@ -1,8 +1,8 @@
 # Loop Summary
 
-**Status:** Completed successfully
-**Iterations:** 1
-**Duration:** 24m 8s
+**Status:** Failed: too many consecutive failures
+**Iterations:** 21
+**Duration:** 26m 38s
 
 ## Tasks
 
@@ -14,4 +14,4 @@ _No events recorded._
 
 ## Final Commit
 
-aa39a39: Add Caddy DNS sync entrypoint stub
+f6229a1: chore: confirm test suite for backpressure

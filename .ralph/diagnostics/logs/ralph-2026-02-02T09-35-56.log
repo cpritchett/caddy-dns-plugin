@@ -1,0 +1,144 @@
+2026-02-02T15:35:56.970506Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:35:56.970754Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:35:56.975083Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:35:56.975151Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:35:56.976130Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:40:14.381120Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=false lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:40:14.381296Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:40:14.381308Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:40:14.381579Z  INFO ralph_core::event_loop: Successfully loaded 2 memories from store
+2026-02-02T15:40:14.381587Z  INFO ralph_core::event_loop: Injecting 2 memories (495 chars) into prompt
+2026-02-02T15:40:14.381721Z  INFO ralph_core::event_loop: Injecting scratchpad (681 chars) into prompt
+2026-02-02T15:40:14.381962Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 4 closed) into prompt
+2026-02-02T15:44:15.862023Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=true typecheck=true audit=true coverage=true duplication=false
+2026-02-02T15:44:15.862422Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:44:15.862488Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:44:15.863104Z  INFO ralph_core::event_loop: Successfully loaded 2 memories from store
+2026-02-02T15:44:15.863146Z  INFO ralph_core::event_loop: Injecting 2 memories (495 chars) into prompt
+2026-02-02T15:44:15.863551Z  INFO ralph_core::event_loop: Injecting scratchpad (1098 chars) into prompt
+2026-02-02T15:44:15.864293Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 5 closed) into prompt
+2026-02-02T15:50:16.238813Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:50:16.238879Z  WARN ralph_core::event_loop: Task abandoned after 3 consecutive blocks task_id=Backpressure checks failed. Fix tests/lint/typecheck/audit/coverage/complexity/duplication/specs before emitting build.done.
+2026-02-02T15:50:16.239267Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:50:16.239333Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:50:16.239892Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:50:16.239944Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:50:16.240373Z  INFO ralph_core::event_loop: Injecting scratchpad (1621 chars) into prompt
+2026-02-02T15:50:16.241021Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 6 closed) into prompt
+2026-02-02T15:51:33.070734Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:51:33.071154Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:51:33.071238Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:51:33.071571Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:51:33.071608Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:51:33.072012Z  INFO ralph_core::event_loop: Injecting scratchpad (1990 chars) into prompt
+2026-02-02T15:51:33.072606Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 7 closed) into prompt
+2026-02-02T15:52:18.809357Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:52:18.809894Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:52:18.809976Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:52:18.810427Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:52:18.810477Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:52:18.810985Z  INFO ralph_core::event_loop: Injecting scratchpad (2450 chars) into prompt
+2026-02-02T15:52:18.811879Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 8 closed) into prompt
+2026-02-02T15:53:15.478038Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:53:15.478283Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:53:15.478306Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:53:15.478483Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:53:15.478500Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:53:15.478727Z  INFO ralph_core::event_loop: Injecting scratchpad (2838 chars) into prompt
+2026-02-02T15:53:15.479133Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 9 closed) into prompt
+2026-02-02T15:54:05.292542Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:54:05.292905Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:54:05.292964Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:54:05.293257Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:54:05.293296Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:54:05.293835Z  INFO ralph_core::event_loop: Injecting scratchpad (3207 chars) into prompt
+2026-02-02T15:54:05.294467Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 10 closed) into prompt
+2026-02-02T15:54:44.358671Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:54:44.358989Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:54:44.359043Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:54:44.359337Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:54:44.359367Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:54:44.359718Z  INFO ralph_core::event_loop: Injecting scratchpad (3450 chars) into prompt
+2026-02-02T15:54:44.360435Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 11 closed) into prompt
+2026-02-02T15:55:45.253732Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:55:45.254907Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:55:45.254998Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:55:45.255413Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:55:45.255473Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:55:45.256030Z  INFO ralph_core::event_loop: Injecting scratchpad (3768 chars) into prompt
+2026-02-02T15:55:45.256755Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 12 closed) into prompt
+2026-02-02T15:56:38.791468Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:56:38.791712Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:56:38.791741Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:56:38.791951Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:56:38.791976Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:56:38.792667Z  INFO ralph_core::event_loop: Injecting scratchpad (4131 chars) into prompt
+2026-02-02T15:56:38.793071Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 13 closed) into prompt
+2026-02-02T15:57:35.680087Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:57:35.680518Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:57:35.680581Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:57:35.680922Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:57:35.680970Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:57:35.681493Z  INFO ralph_core::event_loop: Injecting scratchpad (4513 chars) into prompt
+2026-02-02T15:57:35.682117Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 14 closed) into prompt
+2026-02-02T15:58:33.438065Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:58:33.438602Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:58:33.438693Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:58:33.439087Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:58:33.439154Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:58:33.439646Z  INFO ralph_core::event_loop: Injecting scratchpad (4835 chars) into prompt
+2026-02-02T15:58:33.440378Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 15 closed) into prompt
+2026-02-02T15:59:23.102015Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T15:59:23.102527Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:59:23.102583Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:59:23.102794Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T15:59:23.102815Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T15:59:23.103101Z  INFO ralph_core::event_loop: Injecting scratchpad (5214 chars) into prompt
+2026-02-02T15:59:23.103505Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 16 closed) into prompt
+2026-02-02T16:00:11.476611Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T16:00:11.478176Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:00:11.478241Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:00:11.478559Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:00:11.478608Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:00:11.478987Z  INFO ralph_core::event_loop: Injecting scratchpad (5560 chars) into prompt
+2026-02-02T16:00:11.479619Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 17 closed) into prompt
+2026-02-02T16:01:02.675889Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T16:01:02.677896Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:01:02.677958Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:01:02.678285Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:01:02.678333Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:01:02.678698Z  INFO ralph_core::event_loop: Injecting scratchpad (5889 chars) into prompt
+2026-02-02T16:01:02.679340Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 18 closed) into prompt
+2026-02-02T16:02:03.180875Z  WARN ralph_core::event_loop: build.done rejected: backpressure checks failed tests=true lint=false typecheck=false audit=false coverage=false duplication=false
+2026-02-02T16:02:03.181264Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:02:03.181329Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:02:03.181643Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:02:03.181688Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:02:03.182008Z  INFO ralph_core::event_loop: Injecting scratchpad (6238 chars) into prompt
+2026-02-02T16:02:03.182626Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 19 closed) into prompt
+2026-02-02T16:02:09.644119Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:02:09.644178Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:02:09.644300Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:02:09.644310Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:02:09.644354Z  INFO ralph_core::event_loop: Injecting scratchpad (6238 chars) into prompt
+2026-02-02T16:02:09.644484Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 19 closed) into prompt
+2026-02-02T16:02:16.233460Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:02:16.233530Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:02:16.234008Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:02:16.234047Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:02:16.234176Z  INFO ralph_core::event_loop: Injecting scratchpad (6238 chars) into prompt
+2026-02-02T16:02:16.234507Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 19 closed) into prompt
+2026-02-02T16:02:22.633712Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:02:22.633759Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:02:22.634007Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:02:22.634042Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:02:22.634170Z  INFO ralph_core::event_loop: Injecting scratchpad (6238 chars) into prompt
+2026-02-02T16:02:22.634500Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 19 closed) into prompt
+2026-02-02T16:02:29.138793Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T16:02:29.138869Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T16:02:29.139229Z  INFO ralph_core::event_loop: Successfully loaded 4 memories from store
+2026-02-02T16:02:29.139263Z  INFO ralph_core::event_loop: Injecting 4 memories (1059 chars) into prompt
+2026-02-02T16:02:29.139399Z  INFO ralph_core::event_loop: Injecting scratchpad (6238 chars) into prompt
+2026-02-02T16:02:29.139864Z  INFO ralph_core::event_loop: Injecting ready tasks (49 ready, 49 open, 19 closed) into prompt
+2026-02-02T16:02:35.587150Z  INFO ralph_core::event_loop: Wrapping up: consecutive_failures. 21 iterations in 26m 38s. reason=consecutive_failures iterations=21 duration=26m 38s
+2026-02-02T16:21:34.302986Z  INFO ralph_tui::app: Ctrl+C detected, signaling main loop

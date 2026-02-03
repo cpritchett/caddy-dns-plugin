@@ -1,0 +1,18 @@
+{"ts":"2026-02-02T15:35:56.865338+00:00","iteration":0,"hat":"loop","topic":"task.start","triggered":"planner","payload":"continue previous run"}
+{"payload":"tests: go test ./... (pass)","topic":"build.done","ts":"2026-02-02T15:40:09.849386+00:00"}
+{"payload":"tests: pass, lint: pass, typecheck: pass, audit: pass, coverage: pass","topic":"build.done","ts":"2026-02-02T15:44:09.464930+00:00"}
+{"payload":"tests: pass (go test ./...)","topic":"build.done","ts":"2026-02-02T15:50:08.465115+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:51:28.488762+00:00"}
+{"payload":"tests: pass, lint: not-run, typecheck: not-run, audit: not-run, coverage: not-run","topic":"build.done","ts":"2026-02-02T15:52:16.493235+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:53:10.685425+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:54:00.725321+00:00"}
+{"payload":"tests: pass, lint: n/a, typecheck: n/a, audit: n/a, coverage: n/a","topic":"build.done","ts":"2026-02-02T15:54:41.647444+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:55:42.697269+00:00"}
+{"payload":"tests: pass (go test ./...)","topic":"build.done","ts":"2026-02-02T15:56:34.380991+00:00"}
+{"payload":"tests: pass (go test ./...)","topic":"build.done","ts":"2026-02-02T15:57:33.080825+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:58:29.832968+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T15:59:20.620572+00:00"}
+{"payload":"tests: pass","topic":"build.done","ts":"2026-02-02T16:00:09.155151+00:00"}
+{"payload":"tests: pass (go test ./...), lint: n/a, typecheck: n/a, audit: n/a, coverage: n/a","topic":"build.done","ts":"2026-02-02T16:00:59.558200+00:00"}
+{"payload":"tests: pass, lint: n/a, typecheck: n/a, audit: n/a, coverage: n/a","topic":"build.done","ts":"2026-02-02T16:02:00.522151+00:00"}
+{"ts":"2026-02-02T16:02:35.587208+00:00","iteration":21,"hat":"loop","topic":"loop.terminate","payload":"## Reason\nconsecutive_failures\n\n## Status\nToo many consecutive failures.\n\n## Summary\n- Iterations: 21\n- Duration: 26m 38s\n- Exit code: 1"}
