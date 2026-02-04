@@ -40,7 +40,7 @@ description: "Task list for Caddy DNS Sync Module"
 - [x] T005 Implement label parser with configurable prefix and caddy inference in `internal/labels/parser.go`
 - [x] T006 Scaffold Docker/Swarm event watcher with filters and debounce in `internal/docker/watcher.go`
 - [x] T007 Define provider interface and libdns adapter contract in `internal/providers/provider.go`
-- [ ] T008 Implement DNS orchestration pipeline (desired state compute, create/delete) in `internal/dns/manager.go`
+- [x] T008 Implement DNS orchestration pipeline (desired state compute, create/delete) in `internal/dns/manager.go`
 - [ ] T009 Expose health and metrics handlers per OpenAPI in `internal/dns/handlers.go`
 
 ---
