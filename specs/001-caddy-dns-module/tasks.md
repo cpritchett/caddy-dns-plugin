@@ -26,9 +26,9 @@ description: "Task list for Caddy DNS Sync Module"
 
 **Purpose**: Project initialization and basic structure
 
-- [ ] T001 Initialize Go module (Go 1.22.x) and dependencies in `go.mod`
-- [ ] T002 Create project directories per plan in `cmd/`, `internal/{config,docker,labels,providers/{cloudflare,unifi},dns,reconcile}/`, `pkg/contracts/`, `tests/{unit,integration,contract}/`
-- [ ] T003 Add Caddy module entrypoint skeleton in `cmd/caddy-dns-sync/main.go`
+- [x] T001 Initialize Go module (Go 1.22.x) and dependencies in `go.mod`
+- [x] T002 Create project directories per plan in `cmd/`, `internal/{config,docker,labels,providers/{cloudflare,unifi},dns,reconcile}/`, `pkg/contracts/`, `tests/{unit,integration,contract}/`
+- [x] T003 Add Caddy module entrypoint skeleton in `cmd/caddy-dns-sync/main.go`
 
 ---
 
@@ -36,10 +36,10 @@ description: "Task list for Caddy DNS Sync Module"
 
 **Purpose**: Core infrastructure that MUST be complete before ANY user story can be implemented
 
-- [ ] T004 Implement configuration loader with Caddyfile + env precedence in `internal/config/config.go`
-- [ ] T005 Implement label parser with configurable prefix and caddy inference in `internal/labels/parser.go`
-- [ ] T006 Scaffold Docker/Swarm event watcher with filters and debounce in `internal/docker/watcher.go`
-- [ ] T007 Define provider interface and libdns adapter contract in `internal/providers/provider.go`
+- [x] T004 Implement configuration loader with Caddyfile + env precedence in `internal/config/config.go`
+- [x] T005 Implement label parser with configurable prefix and caddy inference in `internal/labels/parser.go`
+- [x] T006 Scaffold Docker/Swarm event watcher with filters and debounce in `internal/docker/watcher.go`
+- [x] T007 Define provider interface and libdns adapter contract in `internal/providers/provider.go`
 - [ ] T008 Implement DNS orchestration pipeline (desired state compute, create/delete) in `internal/dns/manager.go`
 - [ ] T009 Expose health and metrics handlers per OpenAPI in `internal/dns/handlers.go`
 
