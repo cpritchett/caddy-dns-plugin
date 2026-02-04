@@ -9,7 +9,7 @@ Build a Caddy module that watches Docker container lifecycle events, parses DNS-
 
 ## Technical Context
 
-**Language/Version**: Go 1.22.x
+**Language/Version**: Go 1.23.0
 **Primary Dependencies**: Caddy module API, Docker SDK for Go, libdns (Cloudflare + UniFi implementations), caddy-docker-proxy label conventions
 **Storage**: N/A (state derived from Docker + providers)
 **Testing**: Go `testing` with unit + integration suites (Docker event stream, provider fakes)

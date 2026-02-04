@@ -2,9 +2,9 @@
 
 ## Go toolchain version
 
-- Decision: Target Go 1.22.x for the module and tooling.
-- Rationale: Current stable with security fixes, improved memory management, and mature generics; aligns with Caddy’s recent releases and libdns providers.
-- Alternatives considered: Go 1.21.x (older security window); Go tip (too unstable for plugin consumers).
+- Decision: Target Go 1.23.0 for the module and tooling.
+- Rationale: Required by Caddy v2.9.0's transitive dependencies (certmagic v0.24.0 requires Go 1.23.0); provides improved performance and security fixes; maintains compatibility with Caddy's module ecosystem.
+- Alternatives considered: Go 1.22.x (incompatible with certmagic v0.24.0); downgrading Caddy/certmagic versions (would lose recent security and feature updates).
 
 ## Testing harness
 
