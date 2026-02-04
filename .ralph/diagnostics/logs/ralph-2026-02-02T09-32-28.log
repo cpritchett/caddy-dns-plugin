@@ -1,0 +1,26 @@
+2026-02-02T15:32:28.922490Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:32:28.922881Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:32:28.935540Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:32:28.935619Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:32:28.946364Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:32:29.350074Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:32:29.350099Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:32:29.350176Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:32:29.350184Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:32:29.350304Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:32:29.390207Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:32:29.390232Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:32:29.390303Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:32:29.390310Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:32:29.390424Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:32:29.428662Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:32:29.428693Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:32:29.428770Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:32:29.428777Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:32:29.428894Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:32:29.466979Z  INFO ralph_core::event_loop: Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/cpritchett/src/personal/caddy-dns-plugin"
+2026-02-02T15:32:29.467003Z  INFO ralph_core::event_loop: Looking for memories at: "/Users/cpritchett/src/personal/caddy-dns-plugin/.ralph/agent/memories.md" (exists: true)
+2026-02-02T15:32:29.467073Z  INFO ralph_core::event_loop: Successfully loaded 1 memories from store
+2026-02-02T15:32:29.467079Z  INFO ralph_core::event_loop: Injecting 1 memories (249 chars) into prompt
+2026-02-02T15:32:29.467192Z  INFO ralph_core::event_loop: Injecting ready tasks (50 ready, 50 open, 3 closed) into prompt
+2026-02-02T15:32:29.505111Z  INFO ralph_core::event_loop: Wrapping up: consecutive_failures. 5 iterations in 0s. reason=consecutive_failures iterations=5 duration=0s
