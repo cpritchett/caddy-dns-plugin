@@ -3,6 +3,7 @@ package cloudflare
 import (
 	"context"
 	"net/netip"
+	"strings"
 	"testing"
 	"time"
 
@@ -71,7 +72,7 @@ func TestNewCloudflareProvider(t *testing.T) {
 					t.Errorf("NewCloudflareProvider() expected error, got nil")
 					return
 				}
-				if tt.errMsg != "" && !contains(err.Error(), tt.errMsg) {
+				if tt.errMsg != "" && !strings.Contains(err.Error(), tt.errMsg) {
 					t.Errorf("NewCloudflareProvider() error = %v, want error containing %q", err, tt.errMsg)
 				}
 				return
@@ -261,12 +262,12 @@ func TestValidateRecordType(t *testing.T) {
 }
 
 func TestCloudflareAdapterRecordOperations(t *testing.T) {
-	// These tests verify the adapter methods exist and properly wrap errors
-	// In a real scenario, we would mock the Cloudflare API
+	// These tests verify the adapter methods exist and have proper signatures
+	// Note: Full integration tests with mocked Cloudflare API would be in integration tests
 	
-	t.Run("AppendRecords returns error for invalid context", func(t *testing.T) {
+	t.Run("adapter methods are callable", func(t *testing.T) {
 		adapter := &CloudflareAdapter{
-			provider: &cloudflare.Provider{APIToken: "invalid-token"},
+			provider: &cloudflare.Provider{APIToken: "test-token"},
 		}
 		
 		ctx := context.Background()
@@ -274,45 +275,11 @@ func TestCloudflareAdapterRecordOperations(t *testing.T) {
 			libdns.Address{Name: "test", IP: netip.MustParseAddr("1.2.3.4")},
 		}
 		
-		// This will fail because we don't have a valid token and zone
-		_, err := adapter.AppendRecords(ctx, "invalid.zone", records)
-		if err == nil {
-			t.Log("AppendRecords expected to fail with invalid configuration (this is okay for unit test)")
-		}
-	})
-	
-	t.Run("SetRecords returns error for invalid context", func(t *testing.T) {
-		adapter := &CloudflareAdapter{
-			provider: &cloudflare.Provider{APIToken: "invalid-token"},
-		}
-		
-		ctx := context.Background()
-		records := []libdns.Record{
-			libdns.Address{Name: "test", IP: netip.MustParseAddr("1.2.3.4")},
-		}
-		
-		// This will fail because we don't have a valid token and zone
-		_, err := adapter.SetRecords(ctx, "invalid.zone", records)
-		if err == nil {
-			t.Log("SetRecords expected to fail with invalid configuration (this is okay for unit test)")
-		}
-	})
-	
-	t.Run("DeleteRecords returns error for invalid context", func(t *testing.T) {
-		adapter := &CloudflareAdapter{
-			provider: &cloudflare.Provider{APIToken: "invalid-token"},
-		}
-		
-		ctx := context.Background()
-		records := []libdns.Record{
-			libdns.Address{Name: "test", IP: netip.MustParseAddr("1.2.3.4")},
-		}
-		
-		// This will fail because we don't have a valid token and zone
-		_, err := adapter.DeleteRecords(ctx, "invalid.zone", records)
-		if err == nil {
-			t.Log("DeleteRecords expected to fail with invalid configuration (this is okay for unit test)")
-		}
+		// Verify methods exist and can be called (will fail due to invalid credentials)
+		// This is primarily a compile-time check that interfaces are implemented correctly
+		_, _ = adapter.AppendRecords(ctx, "example.com", records)
+		_, _ = adapter.SetRecords(ctx, "example.com", records)
+		_, _ = adapter.DeleteRecords(ctx, "example.com", records)
 	})
 }
 
@@ -324,18 +291,4 @@ func ptrInt(i int) *int {
 
 func ptrBool(b bool) *bool {
 	return &b
-}
-
-func contains(s, substr string) bool {
-	return len(s) >= len(substr) && (s == substr || len(substr) == 0 || 
-		(len(s) > 0 && len(substr) > 0 && findSubstring(s, substr)))
-}
-
-func findSubstring(s, substr string) bool {
-	for i := 0; i <= len(s)-len(substr); i++ {
-		if s[i:i+len(substr)] == substr {
-			return true
-		}
-	}
-	return false
 }
