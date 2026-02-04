@@ -147,10 +147,10 @@ func TestUpdateMetrics(t *testing.T) {
 	}
 
 	mockProv := &mockProvider{
-		name:        "test-provider",
+		name:         "test-provider",
 		providerType: "cloudflare",
-		zoneFilters: []string{"example.com"},
-		adapter:     mockAdapter,
+		zoneFilters:  []string{"example.com"},
+		adapter:      mockAdapter,
 	}
 
 	manager := NewManager([]providers.Provider{mockProv})
