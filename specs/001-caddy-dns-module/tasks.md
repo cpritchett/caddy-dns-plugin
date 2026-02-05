@@ -53,7 +53,7 @@ description: "Task list for Caddy DNS Sync Module"
 
 ### Implementation for User Story 1
 
-- [ ] T010 [US1] Implement Cloudflare provider adapter (A/AAAA/CNAME, proxied/TTL) in `internal/providers/cloudflare/client.go`
+- [x] T010 [US1] Implement Cloudflare provider adapter (A/AAAA/CNAME, proxied/TTL) in `internal/providers/cloudflare/client.go`
 - [ ] T011 [P] [US1] Map container label parsing to provider requests in `internal/labels/parser.go`
 - [ ] T012 [US1] Integrate event watcher with Cloudflare create/delete in `internal/dns/manager.go`
 - [ ] T013 [US1] Update quickstart with Cloudflare flow in `specs/001-caddy-dns-module/quickstart.md`
