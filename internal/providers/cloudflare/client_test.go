@@ -208,59 +208,6 @@ func TestCloudflareAdapterEnrichRecords(t *testing.T) {
 	}
 }
 
-func TestValidateRecordType(t *testing.T) {
-	tests := []struct {
-		name       string
-		recordType string
-		wantErr    bool
-	}{
-		{
-			name:       "A record is supported",
-			recordType: "A",
-			wantErr:    false,
-		},
-		{
-			name:       "AAAA record is supported",
-			recordType: "AAAA",
-			wantErr:    false,
-		},
-		{
-			name:       "CNAME record is supported",
-			recordType: "CNAME",
-			wantErr:    false,
-		},
-		{
-			name:       "TXT record is supported",
-			recordType: "TXT",
-			wantErr:    false,
-		},
-		{
-			name:       "MX record is supported",
-			recordType: "MX",
-			wantErr:    false,
-		},
-		{
-			name:       "unsupported record type",
-			recordType: "INVALID",
-			wantErr:    true,
-		},
-	}
-
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			err := ValidateRecordType(tt.recordType)
-			
-			if tt.wantErr && err == nil {
-				t.Errorf("ValidateRecordType() expected error for type %q, got nil", tt.recordType)
-			}
-			
-			if !tt.wantErr && err != nil {
-				t.Errorf("ValidateRecordType() unexpected error for type %q: %v", tt.recordType, err)
-			}
-		})
-	}
-}
-
 func TestCloudflareAdapterRecordOperations(t *testing.T) {
 	// These tests verify the adapter methods exist and have proper signatures
 	// Note: Full integration tests with mocked Cloudflare API would be in integration tests

@@ -159,24 +159,3 @@ func (a *CloudflareAdapter) applySettings(record libdns.Record) libdns.Record {
 		return record
 	}
 }
-
-// ValidateRecordType checks if the record type is supported
-// Cloudflare supports A, AAAA, CNAME, and many other record types
-func ValidateRecordType(recordType string) error {
-	supported := map[string]bool{
-		"A":     true,
-		"AAAA":  true,
-		"CNAME": true,
-		"TXT":   true,
-		"MX":    true,
-		"NS":    true,
-		"SRV":   true,
-		"CAA":   true,
-	}
-	
-	if !supported[recordType] {
-		return fmt.Errorf("unsupported record type %q for Cloudflare provider", recordType)
-	}
-	
-	return nil
-}
